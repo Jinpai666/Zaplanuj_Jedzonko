@@ -22,5 +22,5 @@ css/
 
 ### Webstorm ##
 .idea/
-
-css/
+gulpfile.js
+scss/
