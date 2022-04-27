@@ -1,0 +1,38 @@
+// CDN FONTAWESOME
+// <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+//
+// Sass:
+// https://fontawesome.com/how-to-use/on-the-web/using-with/sass
+
+@import "generic/reset";
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/colors";
+@import "elements/base";
+@import "elements/about_me";
+@import "elements/newsletter";
+@import "elements/three_columns";
+@import "elements/header";
+@import "elements/call_to_action";
+@import "elements/features";
+@import "elements/slider";
+@import "elements/app_main/app_header";
+@import "elements/app_main/app_main_side-column";
+@import "elements/app_main/app_main";
+@import "elements/app_main/app_main_widget";
+@import "elements/app_main/app_welcomeMsg";
+@import "elements/app_main/app_main_messages";
+@import "elements/app_main/app_main_schedule";
+@import "elements/recipe/recipe_style";
+@import "elements/schedules/addSchedules";
+@import "elements/schedules/schedules";
+
+
+.app{
+  background-image: url("../images/app_background.png");
+  max-width: 100%;
+  overflow-y: hidden;
+}
+
+
+

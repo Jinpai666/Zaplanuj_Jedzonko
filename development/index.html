@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Zaplanuj Jedzonko</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+  <main class="main">
+<!-- HEADER  HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER-->
+    <header class="header row-dark flex-row" >
+
+        <a href="index.html"><h1 class="h1 header__logo website-link-logo">
+                <span >Zaplanuj</span>
+                <span class="header__accent">Jedzonko.pl</span>
+            </h1></a>
+            <nav>
+                <ul class="header__nav">
+                    <li class="header__menu-item"><a href="app.html" class="header__link">ZAPLANUJ POSIŁKI!</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__link">DLACZEGO WARTO?</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__link">O MNIE</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__link">KONTAKT</a></li>
+                </ul>
+            </nav>
+
+    </header>
+<!-- SLIDER  SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER-->
+  <section id="slider" class="slider">
+        <img class="slider__arrow slider__arrow_left" id="arrow-left" src="images/arrow%20-left.png" alt="arrowleft" />
+        <div id="slider__container">
+          <img id="slide1" class="slider__slide slider__active" src="images/food1.jpg" alt=""/>
+          <img id="slide2" class="slider__slide" src="images/food2.jpg" alt=""/>
+          <img id="slide3" class="slider__slide" src="images/food3.jpg" alt=""/>
+        </div>
+        <img class="slider__arrow slider__arrow_right" id="arrow-right" src="images/arrow.png" alt="arrowleft" />
+  </section>
+ <!--CTA  CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA-->
+    <section class="cta row-dark ">
+        <!-- CTA + button -->
+        <div class="container flex-row ">
+            <div class="cta__content">
+                <h2 class="h2">Lorem ipsum dolor sit amet</h2>
+                <p class="cta__par">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua</p>
+            </div>
+            <button  type="button"  onclick="window.location.href=''" class="btn btn-lg cta__btn">Lorem ipsum</button>
+
+        </div>
+    </section>
+<!-- FEATURES  FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES FEATURES-->
+    <section class="features">
+      <!-- features -->
+      <div class="features__container">
+        <div class="col features__col">
+          <i class="features-item fas fa-light fa-check"></i>
+          <h3 class="h3 features__h3">Lorem ipsum dolor sit amet</h3>
+          <p class="features__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aliquam at porttitor sem.  Aliquam erat volutpat.
+            Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+        </div>
+        <div class="col features__col">
+          <i class="features-item fas fa-clock"></i>
+          <h3 class="h3 features__h3">Lorem ipsum dolor sit amet</h3>
+          <p class="features__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aliquam at porttitor sem.  Aliquam erat volutpat.
+            Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+        </div>
+        <div class="col features__col">
+          <i class="features-item fas fa-list"></i>
+          <h3 class="h3 features__h3">Lorem ipsum dolor sit amet</h3>
+          <p class="features__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aliquam at porttitor sem.  Aliquam erat volutpat.
+            Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+        </div>
+      </div>
+    </section>
+<!-- NEWSLETTER  NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER NEWSLETTER-->
+    <section class="newsletter row-light">
+        <div class="container flex-row">
+            <h3 class="newsletter__header ">Lorem ipsum dolor sit amet</h3>
+            <form class="newsletter__form">
+                <label>
+                    <input class="newsletter__text-input" type="text" id="news-signup" name="news-signup">
+                </label>
+                <button  type="button"  onclick="window.location.href='app.html'" class="newsletter__btn btn btn-lg">Lorem</button>
+            </form>
+        </div>
+    </section>
+<!-- ABOUT ME  ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME-->
+    <section class="user container">
+        <img class="user__image" src="./images/remy.jpg" alt="user-image">
+        <div class="col user__col">
+            <h3 class="h2">Lorem ipsum dolor amet</h3>
+            <p class="user__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+        </div>
+    </section>
+<!-- THREE COLUMNS  THREE COLUMNS THREE COLUMNS THREE COLUMNS THREE COLUMNS THREE COLUMNS THREE COLUMNS THREE COLUMNS THREE COLUMNS THREE COLUMNS THREE COLUMNS -->
+    <section class="row-light footer">
+        <div class="row3in1 container">
+            <div class="col footer__col">
+                <h3 class="h3 footer__header">Lorem ipsum dolor</h3>
+                <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna.</p>
+            </div>
+            <div class="col footer__col">
+                <h3 class="h3 footer__header">Lorem ipsum dolor</h3>
+                <ul class="footer__list">
+                    <li class="footer__text">consectetur adipiscing eli</li>
+                    <li class="footer__text">sed do eiusmod tempor</li>
+                    <li class="footer__text">incididunt ut labore</li>
+                    <li class="footer__text">et dolore magna aliqua</li>
+                </ul>
+            </div>
+            <div class="col footer__col">
+                <h3 class="h3 footer__header">Lorem ipsum dolor</h3>
+                <form class="newsletter__form">
+                    <label>
+                        <input class="footer__text-input" type="text" id="footer-signup" name="footer-signup">
+                    </label>
+                    <button  type="button"  onclick="window.location.href=''" class="footer__btn btn btn-sml">Lorem</button>
+                </form>
+                <div class="footer__icons">
+                    <a class="footer__icon_link" href=""><i class="footer__icon fa-brands fa-facebook-square"></i></a>
+                    <a class="footer__icon_link" href=""><i class="footer__icon fa-brands fa-twitter-square"></i></a>
+                    <a class="footer__icon_link" href=""><i class="footer__icon fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-bottom">
+        <p class="row-dark page-bottom__container">Copyright <span class="page-bottom__accent">ZaplanujJedzonko.pl</span></p>
+    </footer>
+  </main>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
+
+

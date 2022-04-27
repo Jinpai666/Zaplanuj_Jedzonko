@@ -1,0 +1,34 @@
+
+
+.app-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  &__body{
+
+    padding: 1rem 2rem;
+    display: block; /*nadpisałem none na block po modyfikacji toggla.
+     Teraz moze byc juz toggle pomiedzy #display-panel a #welcome-message
+     bo dodalismy kolejne sekcje - Maciek*/
+  /*TUTAJ USTAWIŁEM DISPLAY NONE!
+    JAK W WELCOME MSG PODASZ IMIĘ TO ZMIENIA SIĘ
+    NA DISPLAY BLOCK ~ Łukasz */
+  }
+  &__container{
+
+  }
+  &__first-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: none;
+  }
+}
+.wrapper {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 85vw;
+}

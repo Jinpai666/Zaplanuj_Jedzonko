@@ -1,0 +1,97 @@
+.new-plan {
+  color: $color-secondary;
+  outline: 1px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  display: none;
+  background-color: $color-background;
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    color: $color-attention;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  &__btn {
+    background-color: $color-attention;
+    color: $color-background;
+    font-size: 1.5rem;
+    border: none;
+    padding: 15px;
+  }
+
+  &__name {
+    padding: 1rem;
+
+    label {
+      font-size: 2rem;
+      width: 10%;
+      padding-right: 5.8rem;
+    }
+
+    input {
+      height: 2rem;
+      width: 75%;
+    }
+  }
+
+  &__description {
+    padding: 1rem;
+
+    label {
+      font-size: 2rem;
+      width: 10%;
+      padding-right: 7.9rem;
+    }
+
+    textarea {
+      height: 6rem;
+      width: 75%;
+      resize: none;
+    }
+  }
+
+  &__week-number {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    label {
+      font-size: 2rem;
+      width: 17.6rem;
+    }
+
+    input {
+      height: 25px;
+      width: 25px;
+    }
+  }
+    table{
+    width: 100%;
+    th {
+      border-top: 0.5px $color-secondary solid;
+      font-weight: bold;
+      font-size: 2rem;
+      line-height: 3rem;
+      text-align: center;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+    }
+    td {
+      padding-left: 2rem;
+      width: 20%;
+      border-top: 1px $color-secondary solid;
+    }
+      select{
+        width: 90%;
+        border-radius: 5px;
+        height: 2rem;
+      }
+  }
+
+}

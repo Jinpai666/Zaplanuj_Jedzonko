@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+          integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Zaplanuj Jedzonko</title>
+    <link rel="stylesheet" href="./css/main.css" />
+
+
+  </head>
+  <body class="app">
+
+    <header class=" row-dark  header-height" >
+        <div class="app-header  flex-row">
+          <a href="index.html"><h2 class="h3 app-header__logo website-link-logo">
+            <span >Zaplanuj</span>
+            <span class="header__accent">Jedzonko.pl</span>
+          </h2></a>
+          <div class="app-header__user-section">
+            <div class="app-header__user" id="app-header__user">Imię</div>
+            <a href=""><i class="app-header__icon fas fa-user-circle"></i></a>
+          </div>
+        </div>
+    </header>
+    <main class="app-main" id="app-main">
+      <section class="sidebar">
+        <ul class="app-main__side-column row-light">
+          <a href="app.html"><li class="app-main__column-item">Pulpit</li></a>
+          <a href="recipes.html"><li class="app-main__column-item">Przepisy</li></a>
+          <a href="schedules.html"><li class="app-main__column-item">Plany</li></a>
+        </ul>
+      </section>
+      <section class="wrapper" id="welcome-message">
+        <div class="welcome-message">
+          <div class="internal-wrapper">
+            <h2 class="h2">Witaj,</h2>
+            <h3 class="h3">wygląda na to, że jesteś tutaj</h3>
+            <h3 class="h3">pierwszy raz!</h3>
+            <form class="form col">
+              <input type="text" name="name" id="name" placeholder="tutaj wpisz jak masz na imię">
+              <button id="btn" class="btn">Gotowe!</button>
+            </form>
+            <p>Podaj nam swoje imię, a my zorganizujemy</p>
+            <p>dla Ciebie naszą aplikację :)</p>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="wrapper" id="display-panel">
+        <div class="opening-panel">
+          <div class="app-main__body" id="app-main__body">
+              <section class="app-main__first-row">
+                <div class="app-main__widgets">
+                  <div class="app-main__widget" id="recipes-widget">
+                    <i id="app_widget_icon" class="app-main__widget-icon far fa-plus-square"></i>
+                    <p class="app-main__widget-text">dodaj przepis</p>
+                  </div>
+                  <div class="app-main__widget" id="schedules-widget">
+                   <i class="app-main__widget-icon  far fa-plus-square"></i>
+                    <p class="app-main__widget-text">dodaj plan</p>
+                  </div>
+                </div>
+                <div class="app-main__messages">
+                  <div class="app-main__message app-main__message_1">
+                    <i class="app-main__icon_message-left fa-solid fa-circle-info"></i>
+                    <p class="app-main__widget-text"> Masz już 99 przepisów, nieźle!</p>
+                    <i class="app-main__icon_message-right fa-solid fa-rectangle-xmark"></i>
+                  </div>
+                  <div class="app-main__message app-main__message_2">
+                    <i class="app-main__icon_message-left fa-solid fa-circle-exclamation"></i>
+                    <p class="app-main__widget-text"> Pamiętaj, aby dodać plan!</p>
+                    <i class="app-main__icon_message-right fa-solid fa-rectangle-xmark"></i>
+                  </div>
+                  <div class="app-main__message app-main__message_3">
+                    <i class="app-main__icon_message-left fa-solid fa-circle-check"></i>
+                    <p class="app-main__widget-text"> Świetnie że jesteś! udanego planowania i smacznego! :)</p>
+                    <i class="app-main__icon_message-right fa-solid fa-rectangle-xmark"></i>
+                  </div>
+                </div>
+              </section>
+              <section id="schedule">
+                <table>
+                  <caption>Twój plan na - 1 - tydzień:</caption>
+                  <tr>
+                    <th>
+                      Poniedziałek
+                    </th>
+                    <th>
+                      Wtorek
+                    </th>
+                    <th>
+                      Środa
+                    </th>
+                    <th>
+                      Czwartek
+                    </th>
+                    <th>
+                      Piątek
+                    </th>
+                    <th>
+                      Sobota
+                    </th>
+                    <th>
+                      Niedziela
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      śniadanie
+                    </td>
+                    <td>
+                      śniadanie
+                    </td>
+                    <td>
+                      śniadanie
+                    </td>
+                    <td>
+                      śniadanie
+                    </td>
+                    <td>
+                      śniadanie
+                    </td>
+                    <td>
+                      śniadanie
+                    </td>
+                    <td>
+                      śniadanie
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>drugie śniadanie</td>
+                    <td>drugie śniadanie</td>
+                    <td>drugie śniadanie</td>
+                    <td>drugie śniadanie</td>
+                    <td>drugie śniadanie</td>
+                    <td>drugie śniadanie</td>
+                    <td>drugie śniadanie</td>
+                  </tr>
+                  <tr>
+                    <td>zupa</td>
+                    <td>zupa</td>
+                    <td>zupa</td>
+                    <td>zupa</td>
+                    <td>zupa</td>
+                    <td>zupa</td>
+                    <td>zupa</td>
+                  </tr>
+                  <tr>
+                    <td>drugie danie</td>
+                    <td>drugie danie</td>
+                    <td>drugie danie</td>
+                    <td>drugie danie</td>
+                    <td>drugie danie</td>
+                    <td>drugie danie</td>
+                    <td>drugie danie</td>
+                  </tr>
+                  <tr>
+                    <td>kolacja</td>
+                    <td>kolacja</td>
+                    <td>kolacja</td>
+                    <td>kolacja</td>
+                    <td>kolacja</td>
+                    <td>kolacja</td>
+                    <td>kolacja</td>
+                  </tr>
+                </table>
+              </section>
+              <div class="buttons schedule__button">
+                <button class="schedule__button_prev schedule__button" id="prev"><i class="fas fa-angle-double-left"></i>poprzedni</button>
+                <button class="schedule__button_next schedule__button" id="next">nastepny<i class="fas fa-angle-double-right"></i></button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="opening-panel new-plan" id="schedules-panel">
+        <div class="new-plan__heading">
+          <h2 class="new-plan__h2">NOWY PLAN</h2>
+          <button class="new-plan__btn" id="new-plan__btn">Zapisz i zamknij</button>
+
+        </div>
+        <div class="new-plan__name">
+          <label for="planName">Nazwa planu</label>
+          <input type="text" name="planName" id="planName">
+        </div>
+        <div class="new-plan__description">
+          <label for="planDescription">Opis planu</label>
+          <textarea name="planDescription" id="planDescription"></textarea>
+        </div>
+        <div class="new-plan__week-number">
+          <label for="weekNumber">Numer tygodnia</label>
+          <input type="text" name="weekNumber" id="weekNumber">
+        </div>
+        <div class="new-plan__table">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>ŚNIADANIE</th>
+                <th>DRUGIE ŚNIADANIE</th>
+                <th>ZUPA</th>
+                <th>DRUGIE DANIE</th>
+                <th>KOLACJA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="monday">
+                <th>PONIEDZIAŁEK</th>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+              </tr>
+              <tr class="tuesday">
+                <th>WTOREK</th>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+              <tr class="wednesday">
+                <th>ŚRODA</th>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+              </tr>
+              <tr class="thursday">
+                <th>CZWARTEK</th>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+              </tr>
+              <tr class="friday">
+                <th>PIĄTEK</th>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+              </tr>
+              <tr class="saturday">
+                <th>SOBOTA</th>
+                <td><select class ="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class ="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class ="meal"><option value="dog">hot dog</option> <option value="chicken">chicken</option></select></td>
+                <td><select class ="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class ="meal"><option value="dog">hot dog</option></select></td>
+              </tr>
+              <tr class="sunday">
+                <th>NIEDZIELA</th>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+                <td><select class="meal"><option value="dog">hot dog</option></select></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="opening-panel recipes" id="recipes-panel">
+        <div class="recipes__row1 recipes__row">
+          <p class="recipes__title recipes__large-font">NOWY PRZEPIS</p>
+          <a href="#" id="addRecipeBtn" class="recipes__btn">Zapisz i zamknij</a>
+        </div>
+        <div class="recipes__row2 recipes__row">
+          <p class="recipes__name recipes__large-font">Nazwa przepisu</p>
+          <label  class="recipes__row2-label">
+            <input id="recipeName" rows="1" maxlength="50" class="recipes__row2-input" placeholder="Nazwa dania" type="text">
+          </label>
+        </div>
+        <div class="recipes__row3 recipes__row">
+          <p class="recipes__description recipes__large-font">Opis przepisu</p>
+          <label class="recipes__row3-label">
+            <textarea id="recipeDesc" rows="3" maxlength="360" class="recipes__row3-input" placeholder="Opis dania" style="resize: none"></textarea>
+          </label>
+        </div>
+        <div class="recipes__row4 recipes__row">
+          <div class="recipes__col1 recipes__col">
+            <h3 class="recipes__col-header recipes__large-font">INSTRUKCJE</h3>
+            <label class="recipes__row1-input">
+              <textarea id="instDesc" rows="3" maxlength="360"  class="recipes__col1_input"></textarea><i id="addIns" class="recipes__add recipes__add_ins fa-solid fa-square-plus"></i>
+            </label>
+          </div>
+          <div class="recipes__col2 recipes__col">
+            <h3 class="recipes__col-header recipes__large-font">SKŁADNIKI</h3>
+            <label>
+              <textarea id="ingDesc" rows="1" maxlength="50" class="recipes__col2_input"></textarea><i id="addIng" class="recipes__add recipes__add_ing fa-solid fa-square-plus"></i>
+            </label>
+          </div>
+        </div>
+        <div class="recipes__row5 recipes__row">
+          <ol id="instList" class="recipes__list recipes__col">
+          </ol>
+          <ol id="ingList" class="recipes__list recipes__col">
+          </ol>
+        </div>
+      </section>
+
+    </main>
+      <script src="./js/app.js"></script>
+  </body>
+</html>
