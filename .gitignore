@@ -5,7 +5,7 @@ logs
 npm-debug.log*
 package-lock.json
 node_modules/
-css/
+scss/
 
 ### OSX ###
 .DS_Store
